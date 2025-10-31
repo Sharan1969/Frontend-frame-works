@@ -1,0 +1,26 @@
+
+var name = "sharan";
+console.log(name)
+
+var name="lotus";
+console.log(name)
+
+change = "sharif"  // its consider as var
+console.log(change)
+
+// let a=5;
+// let a=20;        error because let a not re declared 
+// console.log(a)
+
+let a=5;
+a=20;
+console.log(a)
+
+var a=5;
+var a=20;        // not error because var can be redeclared 
+console.log(a)
+
+console.log(b);
+b=5;       //un defined 
+
+console.log(a);   //not defined
