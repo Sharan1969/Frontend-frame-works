@@ -1,0 +1,21 @@
+// process.stdin.on('data', number => {
+
+// You are using Plain Javascript
+var a=Number(number);
+if (a%2==0){
+    console.log("The number is even.");
+}else{
+    console.log("The number is odd.");
+}
+
+//process.exit();
+//});
+
+// Input 1 :
+// 33
+// Output 1 :
+// The number is odd.
+// Input 2 :
+// 6
+// Output 2 :
+// The number is even.
