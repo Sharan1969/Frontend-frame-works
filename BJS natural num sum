@@ -1,0 +1,11 @@
+var n=Number(number);
+var sum=0;
+for(let i=1;i<=n;i++){
+    sum+=i;
+}
+console.log("The sum of natural numbers: "+sum);
+
+Input 1 :
+// 10
+// Output 1 :
+// The sum of natural numbers: 55
